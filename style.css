@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;    
+}
+
+.details h3{
+    margin-bottom: 24px;
+}
+
+.container{
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    background-color: aliceblue;
+    display: flow-root;
+    border: 1px solid ;
+}
+
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid;
+    padding: 5% 0%;
+}
+.pfp {
+    max-width: 100%;
+    min-width: 45%;
+}
+.summary{
+    text-align: left;
+    min-width: 55%;
+    max-width: 100%;
+    float: right;
+
+}
+.cvTitle{
+    margin-bottom: 18px;
+}
+
+.personalProfile{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.contactInfo p { 
+    display: inline;
+}
+
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 12px;
+}
+.leftPortion{
+    max-width: 100%;
+    min-width: 55%;
+    text-align: left;
+    border-right: 1px solid;
+}
+
+.rightPortion{
+    max-width: 100%;
+    min-width: 45%;
+    text-align: left;
+}
+
+.proExp{
+    margin: 5%;
+    height: 60%;
+}
+
+.exp{
+    margin: 5%;
+    min-height: fit-content;
+    height: 50%;
+}
+
+.edu{
+    margin: 5%;
+    min-height: fit-content;
+    height: 30%;
+}
+
+.skills{
+    margin: 5%;   
+}
+
+.cert{
+    margin: 5%;
+}
+
+.refs{
+    margin: 5%;
+}
