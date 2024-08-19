@@ -9,6 +9,9 @@ body{
 }
 
 p{
+    margin-bottom: 2%;
+}
+li{
     margin-bottom: 1%;
 }
 
@@ -74,27 +77,22 @@ p{
     background-color: hsl(40, 100%, 98%);
 }
 .leftPortion{
-    max-width: 100%;
-    min-width: 55%;
+    width: 55%;
     text-align: left;
     border-right: 1px solid;
 }
 
 .rightPortion{
-    max-width: 100%;
-    min-width: 45%;
+    width: 45%;
     text-align: left;
 }
 
 .proExp{
     margin: 5%;
-    height: 60%;
 }
 
 .exp{
     margin: 5%;
-    min-height: fit-content;
-    height: 50%;
 }
 .exp h4{
     margin-bottom: 3%;
@@ -102,15 +100,17 @@ p{
 
 .edu{
     margin: 5%;
-    height: 40%;
+    margin-bottom: 20%;
 }
 
 .skills{
-    margin: 5%;   
+    margin: 5%;
+    margin-bottom: 20%;   
 }
 
 .cert{
     margin: 5%;
+    margin-bottom: 20%;
 }
 
 .refs{
