@@ -3,6 +3,11 @@
     margin: 0;    
 }
 
+body{
+    font: 1em sans-serif;
+    background-color: hsl(174, 100%, 96%);
+}
+
 .details h3{
     margin-bottom: 24px;
 }
@@ -11,9 +16,8 @@
     margin: auto;
     text-align: center;
     width: 60%;
-    background-color: aliceblue;
     display: flow-root;
-    border: 1px solid ;
+    background-color: white;
 }
 
 .head{
@@ -23,23 +27,28 @@
     padding: 5% 0%;
 }
 .pfp {
-    max-width: 100%;
-    min-width: 45%;
+    padding: 5%;
+    width: 40%;
+    
+}
+
+.pfp img{
+    width: 100%;
+    border-radius: 100%;
+    border: 4px solid rgb(160, 160, 160);
 }
 .summary{
+    margin: auto;
+    justify-items: center;
     text-align: left;
-    min-width: 55%;
-    max-width: 100%;
-    float: right;
-
 }
 .cvTitle{
     margin-bottom: 18px;
 }
 
 .personalProfile{
-    margin-top: 18px;
-    margin-bottom: 18px;
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
 
 .contactInfo p { 
@@ -78,8 +87,7 @@
 
 .edu{
     margin: 5%;
-    min-height: fit-content;
-    height: 30%;
+    height: 40%;
 }
 
 .skills{
