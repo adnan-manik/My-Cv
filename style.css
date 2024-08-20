@@ -75,7 +75,6 @@ li{
     flex-wrap: wrap;
     width: 97%;
     margin: 12px;
-    background-color: hsl(40, 100%, 98%);
 }
 .leftPortion{
     width: 55%;
@@ -116,4 +115,30 @@ li{
 
 .refs{
     margin: 5%;
+}
+
+@media only screen and (max-width:768px){
+    .pfp, .summary, .rightPortion{
+        width: 100%;
+    }
+    .leftPortion{
+        width: 100%;
+        border: none;
+    }
+    .pfp{
+        padding: 15%;
+        padding-bottom: 5%;
+        border-bottom: 1px solid;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .proExp, .skills, .edu, .cert, .refs{
+        border-bottom: 1px solid ;
+        margin-bottom: 0;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
 }
